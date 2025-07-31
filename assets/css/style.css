@@ -91,7 +91,7 @@ body {
 
 #div-trabalhos {
     border-bottom: 2px solid #0000009d;
-padding-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 #div-trabalhos-title {
@@ -144,7 +144,7 @@ padding-bottom: 50px;
     padding-bottom: 60px;
 }
 
-#div-especializacao > div:nth-child(1) {
+#div-especializacao>div:nth-child(1) {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -179,7 +179,7 @@ padding-bottom: 50px;
     background-color: #98ca34;
 }
 
-#div-imgs-espec > div {
+#div-imgs-espec>div {
     display: flex;
 }
 
@@ -188,10 +188,50 @@ padding-bottom: 50px;
     height: 260px;
 }
 
-#div-imgs-espec > div:nth-child(1) img:nth-child(1) {
+#div-imgs-espec>div:nth-child(1) img:nth-child(1) {
     border-radius: 45px 0px 0px 0px;
 }
 
-#div-imgs-espec > div:nth-child(2) img:nth-child(1) {
+#div-imgs-espec>div:nth-child(2) img:nth-child(1) {
     border-radius: 0px 0px 0px 45px;
+}
+
+/* DIV PILARES */
+
+#div-pilares {
+    background-color: #88BA27;
+    padding: 70px 10px;
+}
+
+#div-pilares>h1 {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#pilares-content {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+#pilares-content section {
+    width: 320px;
+    background-color: white;
+    padding: 40px 60px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#pilares-content section h1 {
+    font-size: 24px;
+}
+
+#pilares-content section p {
+    font-size: 18px;
 }
