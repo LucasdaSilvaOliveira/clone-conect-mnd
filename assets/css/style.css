@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: barlow;
+    color: #2e2c2c;
+}
+
+body {
+    background-color: #F3F3F3;
+}
+
+/* HEADER */
+
+#div-nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 120px;
+}
+
+#div-nav-header nav ul {
+    display: flex;
+    gap: 100px;
+}
+
+#div-nav-header nav ul li {
+    list-style: none;
+}
+
+#div-nav-header a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+#header-content {
+    height: 520px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-bg-header {
+    background-image: url(../imgs/bg-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: #0000004f;
+    filter: blur(4px);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#header-content-texts {
+    z-index: 10;
+    position: relative;
+    width: 50%;
+    text-align: center;
+}
+
+#header-content-texts h1 {
+    font-size: 69px;
+    font-weight: normal;
+    border-bottom: 2.5px solid gray;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+#header-content-texts p {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+#header-content-texts button {
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: #88BA27;
+    padding: 20px 65px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* DIV NOSSOS TRABALHOS */
+
+#div-trabalhos {
+    border-bottom: 2px solid #0000009d;
+padding-bottom: 50px;
+}
+
+#div-trabalhos-title {
+    border-bottom: 2px solid #0000009d;
+    padding: 30px 100px;
+    color: #2e2c2c;
+    margin-bottom: 50px;
+}
+
+#trabalhos-itens {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.trab-item {
+    width: 240px;
+    height: 240px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 1px 3px 3px 3px #00000059;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#trabalho-parag {
+    font-size: 18px;
+    width: 820px;
+    margin: auto;
+    text-align: center;
+}
+
+#trabalho-parag span {
+    color: #88BA27;
+    font-weight: bold;
+}
+
+/* DIV ESPECIALIZAÇÃO */
+#div-especializacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#div-especializacao > div:nth-child(1) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#div-especializacao section {
+    width: 530px;
+}
+
+#div-especializacao section h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+#div-especializacao section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#div-especializacao section button {
+    background-color: #88BA27;
+    border: none;
+    padding: 21px 81px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 150ms ease-in-out;
+}
+
+#div-especializacao section button:hover {
+    background-color: #98ca34;
+}
+
+#div-imgs-espec > div {
+    display: flex;
+}
+
+#div-imgs-espec img {
+    width: 329px;
+    height: 260px;
+}
+
+#div-imgs-espec > div:nth-child(1) img:nth-child(1) {
+    border-radius: 45px 0px 0px 0px;
+}
+
+#div-imgs-espec > div:nth-child(2) img:nth-child(1) {
+    border-radius: 0px 0px 0px 45px;
+}
