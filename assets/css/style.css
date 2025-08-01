@@ -235,3 +235,50 @@ body {
 #pilares-content section p {
     font-size: 18px;
 }
+
+/* DIV EXPLICAÇÃO SERVIÇOS */
+
+#div-explicacao-servicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 100px;
+}
+
+#servicos-content {
+    width: 80%;
+}
+
+#servicos-content section {
+    margin-bottom: 50px;
+}
+
+#servicos-content h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#servicos-content p {
+    font-size: 18px;
+}
+
+#servicos-imgs {
+    width: 50%;
+    height: 544px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#servicos-imgs img {
+    position: absolute;
+}
+
+#servicos-imgs img:nth-child(1) {
+    filter: blur(1.5px);
+}
+
+#servicos-imgs img:nth-child(2) {
+    transform: translate(-50px, -30px);
+}
