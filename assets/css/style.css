@@ -85,6 +85,12 @@ body {
     padding: 20px 65px;
     border-radius: 5px;
     cursor: pointer;
+    transition: all 150ms ease-in-out;
+}
+
+#header-content-texts button:hover {
+    background-color: rgb(151, 201, 50);
+
 }
 
 /* DIV NOSSOS TRABALHOS */
