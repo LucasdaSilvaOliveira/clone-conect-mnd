@@ -369,3 +369,19 @@ body {
     height: 377px;
     border-radius: 20px;
 }
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding: 50px 20px;
+    background-color: white;
+}
+
+footer img,
+footer h1 {
+    margin-bottom: 20px;
+}
