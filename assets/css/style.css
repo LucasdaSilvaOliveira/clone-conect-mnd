@@ -5,11 +5,12 @@
     color: #2e2c2c;
 }
 
-body {
+#container {
+    max-width: 2200px;
+    margin: 0 auto;
+    width: 100%;
     background-color: #F3F3F3;
 }
-
-/* HEADER */
 
 #div-nav-header {
     display: flex;
@@ -110,6 +111,7 @@ body {
 #trabalhos-itens {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 50px;
     margin-bottom: 50px;
 }

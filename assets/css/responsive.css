@@ -1,0 +1,123 @@
+@media (max-width:1020px) {
+
+    /* HEADER */
+
+    #div-nav-header {
+        padding: 15px 5%;
+    }
+
+    #div-nav-header nav ul {
+        gap: 50px;
+    }
+
+    #header-content-texts h1 {
+        font-size: 40px;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+    }
+
+    #header-content-texts p {
+        font-size: 20px;
+    }
+
+    #header-content-texts button {
+        font-size: 16px;
+        padding: 15px 45px;
+    }
+}
+
+@media (max-width:830px) {
+    /* DIV TRABALHOS */
+    #trabalho-parag {
+        width: 90%;
+        font-size: 16px;
+    }
+}
+
+@media (max-width:700px) {
+
+    /* HEADER */
+
+    #div-nav-header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #div-nav-header>img {
+        width: 160px;
+    }
+
+    #div-nav-header nav ul {
+        gap: 30px
+    }
+
+    #div-nav-header a {
+        font-size: 16px;
+    }
+
+    #header-content-texts {
+        width: 80%;
+    }
+
+    /* DIV TRABALHOS */
+
+    #div-trabalhos-title {
+        padding: 20px 0px;
+    }
+
+    #div-trabalhos-title h1 {
+        text-align: center;
+        font-size: 21px;
+    }
+}
+
+@media (max-width:530px) {
+    /* HEADER */
+
+    #header-content-texts h1 {
+        font-size: 30px;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+    }
+
+    #header-content-texts p {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    #header-content-texts button {
+        font-size: 14px;
+        padding: 10px 35px;
+    }
+
+    /* DIV TRABALHOS */
+
+    .trab-item {
+        gap: 20px;
+    }
+
+    .trab-item h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:350px) {
+
+    /* HEADER */
+
+    #div-nav-header nav ul {
+        gap: 15px
+    }
+
+    #div-nav-header a {
+        font-size: 14px;
+    }
+
+    #header-content-texts {
+        width: 90%;
+    }
+
+    #header-content-texts h1 {
+        font-size: 25px;
+    }
+}
