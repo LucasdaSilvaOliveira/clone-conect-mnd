@@ -221,7 +221,8 @@
 #pilares-content {
     display: flex;
     justify-content: center;
-    gap: 5%;
+    flex-wrap: wrap;
+    gap: 80px;
 }
 
 #pilares-content section {

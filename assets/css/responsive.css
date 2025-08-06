@@ -158,6 +158,25 @@
         font-size: 16px;
         padding: 13px 65px;
     }
+
+    /* DIV PILARES */
+
+    #div-pilares>h1 {
+        font-size: 24px;
+    }
+
+    #pilares-content section {
+        padding: 40px 10px;
+        width: 90%;
+    }
+
+    #pilares-content section h1 {
+        font-size: 20px;
+    }
+
+    #pilares-content section p {
+        font-size: 16px;
+    }
 }
 
 @media (max-width:350px) {
