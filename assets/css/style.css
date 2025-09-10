@@ -130,6 +130,10 @@
     border-radius: 5px;
 }
 
+.trab-item h1 {
+    font-size: 25px;
+}
+
 #trabalho-parag {
     font-size: 18px;
     width: 820px;
